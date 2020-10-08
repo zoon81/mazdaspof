@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceFolder}/inc",
+                "/usr/local/Cellar/avr-gcc/9.2.0_1/avr"
+            ],
+            "defines": [
+                "__AVR_ATtiny13__"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/local/Cellar/avr-gcc/9.2.0_1/avr",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "/usr/local/Cellar/avr-gcc/9.2.0_1/bin/avr-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
